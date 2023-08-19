@@ -11,7 +11,7 @@ namespace CodeWars.Challenges.TwoSum
     /// </summary>
     internal class TwoSums
     {
-        public static int[]? TwoSum(int[] numbers, int target)
+        public static int[] TwoSum(int[] numbers, int target)
         {
             int[] result = new int[2];
             for (int i = 0; i < numbers.Length;)
